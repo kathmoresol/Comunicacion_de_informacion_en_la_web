@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <!----ajustar contenido de pantalla cellular--->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Inicio|UCCART</title>
+    <!----carga del framework css bootstrap CDN--->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+
+    <!-- carga de la libreria ANIMATE.CSS CDN -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/onepage.css" />
+    <link
+      rel="icon"
+      sizes="16x16 32x32 48x48"
+      type="image/png"
+      href="img/logo.png"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+  </head>
+  <body>
+    <header class="bg-color text-white py-4">
+      <div class="container d-flex justify-content-between align-items-center">
+        <div class="d-flex">
+          <img src="img/logo.png" alt="logo" class="logo-imaginario" height="70" />
+        </div>
+        <nav class="d-none d-md-block">
+          <ul class="nav">
+            <li class="nav-item">
+              <a class="nav-link text-white elastic-link" href="#inicio"
+                >Inicio</a
+              >
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link text-white dropdown-toggle elastic-link"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+                >Nosotros</a
+              >
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li>
+                  <a class="dropdown-item elastic-link" href="#historia"
+                    >Historia</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item elastic-link" href="#equipo"
+                    >Equipo</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white elastic-link" href="#programa"
+                >Programas</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white elastic-link" href="#servicios"
+                >Servicios</a
+              >
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link text-white dropdown-toggle elastic-link"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+                >Campus</a
+              >
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li>
+                  <a class="dropdown-item elastic-link" href="#aula"
+                    >Aula</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item elastic-link" href="#biblioteca"
+                    >Biblioteca</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white elastic-link" href="#contacto"
+                >Contacto</a
+              >
+            </li>
+          </ul>
+        </nav>
+        <button
+          class="navbar-toggler d-md-none"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarResponsive"
+          aria-controls="navbarResponsive"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+      <div class="collapse navbar-collapse d-md-none" id="navbarResponsive">
+        <ul class="nav flex-column text-center bg-color">
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#inicio">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#historia">Nosotros</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#programa">Programas</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#concepto">Servicios</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#contacto">Contacto</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link text-white dropdown-toggle"
+              href="#"
+              id="navbarDropdownMobile"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+              >Campus</a
+            >
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMobile">
+              <li>
+                <a class="dropdown-item" href="#aula">Aula</a>
+              </li>
+              <li><a class="dropdown-item" href="#biblioteca">Biblioteca</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </header>
+
+    <section
+      id="inicio"
+      class="d-flex align-items-center justify-content-center position-relative"
+    >
+      <video autoplay muted loop class="video-background">
+        <source src="img/video2.mp4" type="video/mp4" />
+      </video>
+      <div class="container text-center banner-content">
+        <h1
+          class="title wow animate__animated animate__zoomIn animate__fast animate__delay-300ms"
+        >
+          UCCART
+        </h1>
+        <a
+          href="#historia"
+          class="btn btn-primary animate__animated animate__heartBeat animate__delay-300ms animate__infinite"
+          >Descubre Más</a
+        >
+      </div>
+     
+    </section>
+    <section id="historia" class="section-secondary">
+      <div class="container">
+        <h2 class="text-center mb-4">Historia</h2>
+        <p class="text-center mb-5">
+          La Universidad Continental de las Ciencias y las Artes (UCCART), fundada en 1993, ofrece educación superior de calidad y promueve valores éticos. Su amplia oferta académica forma a estudiantes como profesionales responsables y comprometidos con la sociedad costarricense.
+        </p>
+
+        <div class="row mt-4">
+          <div class="col-md-3 text-center mb-4">
+            <img
+              src="img/somos-uccart-2.jpg"
+              class="img-fluid rounded mb-4"
+              alt="Photo 1"
+            />
+            <h5 class="mb-3">Artista</h5>
+            <p class="mb-3">Olger Villegas Cruz.</p>
+          </div>
+          <div class="col-md-3 text-center mb-4">
+            <img
+              src="img/somos-uccart-3.jpg"
+              class="img-fluid rounded mb-4"
+              alt="Photo 2"
+            />
+            <h5 class="mb-3">Fundador</h5>
+            <p class="mb-3">Cecilia Pastor Guevara.</p>
+          </div>
+          <div class="col-md-3 text-center mb-4">
+            <img
+              src="img/somos-uccart-4.jpg"
+              class="img-fluid rounded mb-4"
+              alt="Photo 3"
+            />
+            <h5 class="mb-3">Fundador</h5>
+            <p class="mb-3">Wilberth Villegas Rodríguez.</p>
+          </div>
+          <div class="col-md-3 text-center mb-4">
+            <img
+              src="img/somos-uccart-6.jpg"
+              class="img-fluid rounded mb-4"
+              alt="Photo 4"
+            />
+            <h5 class="mb-3">Artistas</h5>
+            <p class="mb-3">Algunos Profesores</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="equipo" class="section">
+      <div class="container">
+        <h2 class="text-center mb-4">Equipo</h2>
+        <p class="text-center mb-4">El equipo de UCCART está formado por profesionales comprometidos en ofrecer una educación de calidad, promoviendo valores y ética en la formación de los estudiantes.</p>
+
+        <div id="photoCarousel" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="items-container row text-center">
+                <div class="col-md-3">
+                  <img src="img/mujer1.jpg" class="rounded-circle img-fluid" alt="Photo 1" />
+                  <h5 class="mt-2">Educación Preescolar</h5>
+                  <p class="">M.Sc. Leticia Aguiluz Milla.</p>
+                </div>
+                <div class="col-md-3">
+                  <img src="img/hombre2.jpg" class="rounded-circle img-fluid" alt="Photo 2" />
+                  <h5 class="mt-2">Escuela de Música</h5>
+                  <p class="">M.Sc. Alonso Arias Arce. </p>
+                </div>
+                <div class="col-md-3">
+                  <img src="img/mujer.jpg" class="rounded-circle img-fluid" alt="Photo 3" />
+                  <h5 class="mt-2">Diseño Publicitario</h5>
+                  <p class="">Lic. Yesenia Ledezma Rojas.</p>
+                </div>
+                <div class="col-md-3">
+                  <img src="img/hombre.jpg" class="rounded-circle img-fluid" alt="Photo 4" />
+                  <h5 class="mt-2">Escuela de Artes </h5>
+                  <p class="">Lic. Ebenezer Leyva González.</p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="items-container row text-center">
+                <div class="col-md-3">
+                  <img src="img/1.jpg" class="rounded-circle img-fluid" alt="Photo 5" />
+                  <h5 class="mt-2">Gerente General</h5>
+                  <p class="">Ing. Daniel Herrera Villegas.</p>
+                </div>
+                <div class="col-md-3">
+                  <img src="img/2.jpg" class="rounded-circle img-fluid" alt="Photo 6" />
+                  <h5 class="mt-2">Secretaria de Registro</h5>
+                  <p class="">Montserrat Hernández Obregón </p>
+                </div>
+                <div class="col-md-3">
+                  <img src="img/3.jpg" class="rounded-circle img-fluid" alt="Photo 7" />
+                  <h5 class="mt-2">Análisis Técnico </h5>
+                  <p class="">Tatiana Ramírez Torres</p>
+                </div>
+                <div class="col-md-3">
+                  <img src="img/4.jpg" class="rounded-circle img-fluid" alt="Photo 8" />
+                  <h5 class="mt-2">Ejecutivo de Admisiones</h5>
+                  <p class="">Andres Madrigal Cervantes</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        
+          <button class="carousel-control-prev" type="button" data-bs-target="#photoCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#photoCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section id="concepto" class="section concepto team">
+      <!-- <div class="overlay"></div> -->
+      <div class="container text-center"></div>
+    </section>
+  
+    <section class="bg-light section">
+      <div class="container">
+        <h2 class="text-center mb-4">Lo que dicen nuestros estudiantes</h2>
+        <p class="text-center mb-5">Nuestros estudiantes comparten sus vivencias. Sus historias son el reflejo de nuestro compromiso con la educación.</p>
+        <div class="row">
+          <div class="col-md-3 mb-4">
+            <div class="card text-center shadow border-0 rounded">
+              <div class="card-body">
+                <img
+                  src="img/img2.svg"
+                  alt="Estudiante 1"
+                  class="img-fluid mb-3"
+                />
+                <h5 class="card-title">Pamela</h5>
+                <p class="card-text">
+                  "La UCCART me ha proporcionado las herramientas necesarias
+                  para triunfar."
+                </p>
+                <p class="text-muted">Estudiante de Preescolar</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 mb-4">
+            <div class="card text-center shadow border-0 rounded">
+              <div class="card-body">
+                <img
+                  src="img/img4.svg"
+                  alt="Estudiante 2"
+                  class="img-fluid mb-3"
+                />
+                <h5 class="card-title">Carlos</h5>
+                <p class="card-text">
+                  "Los profesores son increíbles y siempre están dispuestos a
+                  ayudar."
+                </p>
+                <p class="text-muted">Estudiante de Artes</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 mb-4">
+            <div class="card text-center shadow border-0 rounded">
+              <div class="card-body">
+                <img
+                  src="img/img3.svg"
+                  alt="Estudiante 3"
+                  class="img-fluid mb-3"
+                />
+                <h5 class="card-title">Maria</h5>
+                <p class="card-text">
+                  "He hecho amigos para toda la vida aquí, ¡es una gran
+                  experiencia!"
+                </p>
+                <p class="text-muted">Estudiante de Música</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 mb-4">
+            <div class="card text-center shadow border-0 rounded">
+              <div class="card-body">
+                <img
+                  src="img/img1.svg"
+                  alt="Estudiante 4"
+                  class="img-fluid mb-3"
+                />
+                <h5 class="card-title">Bryan</h5>
+                <p class="card-text">
+                  "La UCCART me ha ayudado a crecer tanto académica como
+                  personalmente."
+                </p>
+                <p class="text-muted">Estudiante de ilustración digital</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="servicios" class="section">
+      <div class="container">
+        <h2 class="text-center mb-4">Servicios</h2>
+        <p class="text-center mb-5">Te ofrecemos un camino sencillo hacia tus metas educativas. Explora nuestras diversas opciones de apoyo y financiamiento.</p>
+        <div class="row text-center m-0">
+            <div class="col-md-3">
+              <i class="fa-solid fa-file-contract"></i>
+              <h5 class="mt-2">Admisión</h5>
+              <p class="">Proceso de admisión sencillo y rápido.</p>
+            </div>
+            <div class="col-md-3">
+                <i class="fa-solid fa-school"></i>
+                <h5 class="mt-2">Becas</h5>
+                <p class="">Más de 10 tipos de becas disponibles.</p>
+            </div>
+            <div class="col-md-3">
+                <i class="fa-solid fa-graduation-cap"></i>
+                <h5 class="mt-2">Convalidaciones</h5>
+                <p class="">Convalidaciones gratuitas de estudios previos.</p>
+            </div>
+            <div class="col-md-3">
+                <i class="fa-solid fa-money-bill"></i>
+                <h5 class="mt-2">Financiamiento</h5>
+                <p class="">Financiamos el 100% de matrícula con su cédula.</p>
+            </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="section-secondary" id="photo-gallery">
+      <div class="container text-center">
+        <h1 class="text-white mb-4">Ciencias & Arte</h1>
+        <h3 class="text-white mb-5">Ciencias & Arte, una fusión que impulsa el conocimiento y la creatividad.</h3>
+        <div class="video-container ratio ratio-16x9">
+            <div class="ratio ratio-16x9">
+              <iframe src="https://www.youtube.com/embed/4WpII08txXM" title="youtube video" allowfullscreen></iframe>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="programa" class="container section">
+        <h2 class="text-center mb-4">Programas Académicos</h2>
+        <p class="text-center mb-5">Descubre nuestras diversas opciones de formación. Prepárate para un futuro exitoso con nuestras carreras y cursos.</p>
+        <div class="accordion" id="programAccordion">
+          <!-- Bachilleratos -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingBachilleratos">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseBachilleratos" aria-expanded="true" aria-controls="collapseBachilleratos">
+                Bachilleratos
+              </button>
+            </h2>
+            <div id="collapseBachilleratos" class="accordion-collapse collapse show" aria-labelledby="headingBachilleratos" data-bs-parent="#programAccordion">
+              <div class="accordion-body">
+                <ul>
+                  <li>Bachillerato en Enseñanza de la Música</li>
+                  <li>Bachillerato en Enseñanza de las Artes Plásticas</li>
+                  <li>Bachillerato en Ciencias de la Educación Preescolar</li>
+                  <li>Bachillerato en Bellas Artes</li>
+                  <li>Bachillerato en Diseño Publicitario</li>
+                  <li>Licenciatura en Enseñanza de la Música</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+      
+          <!-- Postgrados -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingPostgrados">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsePostgrados" aria-expanded="false" aria-controls="collapsePostgrados">
+                Postgrados
+              </button>
+            </h2>
+            <div id="collapsePostgrados" class="accordion-collapse collapse" aria-labelledby="headingPostgrados" data-bs-parent="#programAccordion">
+              <div class="accordion-body">
+                <ul>
+                  <li>Maestría en Docencia Universitaria</li>
+                  <li>Maestría en Ciencias de la Educación Preescolar</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+      
+          <!-- Cursos Libres -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingCursosLibres">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseCursosLibres" aria-expanded="false" aria-controls="collapseCursosLibres">
+                Cursos Libres
+              </button>
+            </h2>
+            <div id="collapseCursosLibres" class="accordion-collapse collapse" aria-labelledby="headingCursosLibres" data-bs-parent="#programAccordion">
+              <div class="accordion-body">
+                <ul>
+                  <li>Curso de Adobe Photoshop</li>
+                  <li>Curso de Adobe Illustrator</li>
+                  <li>Curso de Adobe InDesing</li>
+                  <li>Curso de Ilustración Digital</li>
+                  <li>Curso de Edición de Video</li>
+                  <li>Curso de Marketing Digital</li>
+                  <li>Curso de Fotografía</li>
+                  <li>Curso de Fotografía 2</li>
+                  <li>Curso de Escultura</li>
+                  <li>Curso de Pintura al óleo</li>
+                  <li>Curso de Dibujo 1</li>
+                  <li>Curso de Dibujo 2</li>
+                  <li>Curso de Pintura 1</li>
+                  <li>Curso de Pintura 2</li>
+                  <li>Curso de Xilografía</li>
+                  <li>Curso de Tatuaje</li>
+                  <li>Curso de Efectos Especiales</li>
+                  <li>Curso de Desarrollo Web</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+    <section class="section-secondary">
+      <h2 class="text-center">Mapa de ubicación</h2>
+      <p class="text-center">Encuentra nuestra institución fácilmente. Ubicación central para tu conveniencia.</p>
+      <div class="pt-4">
+        <!-- MAPA GOOGLE FULLSCREEN -->
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3930.0298440146953!2d-84.06159852407667!3d9.931472490170483!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8fa0e37b3d1ea7b5%3A0xd82f4be325d0bd45!2sUCCART!5e0!3m2!1ses!2scr!4v1728693512894!5m2!1ses!2scr"
+          width="100%"
+          height="800"
+          style="border: 0"
+          allowfullscreen
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        >
+        </iframe>
+      </div>
+    </section>
+    <section id="aula" class="container section">
+      <h2 class="text-center mb-4">Ingreso al Aula Virtual</h2>
+      <p class="text-center">Explora nuestro vasto catálogo de recursos en línea, disponibles las 24 horas.</p>
+    
+      <form class="mx-auto aula-virtual-form text-center">
+
+        <label for="emailAula" class="form-label">Correo Electrónico</label>
+        <input type="email" class="form-control" id="emailAula" placeholder="Ingresa tu correo electrónico" required>
+
+        <label for="passwordAula" class="form-label">Contraseña</label>
+        <input type="password" class="form-control" id="passwordAula" placeholder="Ingresa tu contraseña" required>
+
+        <label for="cursoAula" class="form-label">Seleccionar Curso</label>
+        <select class="form-select" id="cursoAula" required>
+          <option value="">Selecciona tu curso</option>
+          <option value="curso1">Curso 1</option>
+          <option value="curso2">Curso 2</option>
+          <option value="curso3">Curso 3</option>
+        </select>
+        
+        <div class="form-check mb-3">
+          <input type="checkbox" class="form-check-input" id="mantenerConectado">
+          <label class="form-check-label" for="mantenerConectado">Mantenerme conectado</label>
+        </div>
+        
+        <button type="submit" class="btn btn-primary mt-3">Ingresar</button>
+    
+        <div class="text-center mt-3">
+          <a href="#">Olvidé mi contraseña</a> | 
+          <a href="#">Registrarse</a>
+        </div>
+      </form>
+    </section>
+    <section id="biblioteca" class="container section">
+      <h2 class="text-center mb-4">Acceso a la Biblioteca Virtual</h2>
+      <p class="text-center">Tu portal al conocimiento desde cualquier lugar.</p>
+    
+      <form class="mx-auto biblioteca-virtual-form text-center">
+        <label for="idBiblioteca" class="form-label">Número de Estudiante o ID</label>
+        <input type="text" class="form-control" id="idBiblioteca" placeholder="Ingresa tu número de estudiante o ID" required>
+
+        <label for="emailBiblioteca" class="form-label">Correo Electrónico</label>
+        <input type="email" class="form-control" id="emailBiblioteca" placeholder="Ingresa tu correo electrónico" required>
+
+        <label for="passwordBiblioteca" class="form-label">Contraseña</label>
+        <input type="password" class="form-control" id="passwordBiblioteca" placeholder="Ingresa tu contraseña" required>
+
+        <button type="submit" class="btn btn-primary mt-3">Acceder</button>
+  
+        <div class="text-center mt-3">
+          <a href="#">Olvidé mi contraseña</a>
+        </div>
+      </form>
+    </section>
+      
+      
+    <!-- Contact Section -->
+    <section id="contacto" class="section">
+      <div class="container">
+        <h2 class="text-center">Contacto</h2>
+        <p class="text-center">Comunícate con nosotros para más información y asesoría personalizada.</p>
+
+        <form class="row g-3">
+          <div class="col-md-6">
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Nombre"
+              required
+            />
+          </div>
+          <div class="col-md-6">
+            <input
+              type="email"
+              class="form-control"
+              placeholder="Email"
+              required
+            />
+          </div>
+          <div class="col-12">
+            <textarea
+              class="form-control"
+              rows="5"
+              placeholder="Mensaje"
+            ></textarea>
+          </div>
+          <div class="col-12 text-center">
+            <button type="submit" class="btn btn-primary">Enviar</button>
+          </div>
+        </form>
+      </div>
+      <a href="https://api.whatsapp.com/send?phone=50684577373&text=Hola!%20Quiero%20informaci%C3%B3n%20de%20la%20Universidad" target="_blank" class="icono icono-whatsapp">
+        <i class="uil uil-whatsapp-alt"></i>
+    </a>
+    </section>
+
+    <footer class="bg-color text-white py-3 position-relative" id="footer">
+      <div class="container text-center">
+        <div class="footer-nav mb-3">
+          <a class="text-white mx-2" href="#inicio">Inicio</a>
+          <a class="text-white mx-2" href="#historia">Historia</a>
+          <a class="text-white mx-2" href="#equipo">Equipo</a>
+          <a class="text-white mx-2" href="#programa">Programas</a>
+          <a class="text-white mx-2" href="#servicios">Servicios</a>
+          <a class="text-white mx-2" href="#aula">Aula</a>
+          <a class="text-white mx-2" href="#biblioteca">Biblioteca</a>
+        </div>
+
+        <p>&copy; 2024 Universidad Continental de las Ciencias y las Artes. Todos los derechos reservados.</p>
+      </div>
+     
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@0.3.0/dist/lottie-player.js"></script>
+    <link
+    rel="stylesheet"
+    href="https://unicons.iconscout.com/release/v4.0.8/css/line.css"
+  />
+  
+    
+    <script src="js/index.js"></script>
+    <!-- cargar el archivo JS -->
+    <script src="js/wow.js"></script>
+    <!-- activa los efectos de animacion -->
+    <script>
+      new WOW().init();
+    </script>
+  </body>
+</html>
