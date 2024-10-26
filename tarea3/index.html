@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fiesta de Halloween</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="css/landing.css" />
+    <link rel="icon" href="img/calabaza.png" type="image/x-icon">
+  </head>
+  <body>
+    <!-- Header con video de fondo -->
+    <header
+      class="header d-flex align-items-center justify-content-center text-center"
+    >
+      <!-- Video de fondo -->
+      <video autoplay muted loop playsinline class="video-background">
+        <source src="img/video1.mp4" type="video/mp4" />
+        Tu navegador no soporta la reproducción de video.
+      </video>
+
+      <!-- Contenido sobre el video -->
+      <div class="container position-relative">
+        <h2 class="titulo">Fiesta de Halloween</h2>
+        <h4>Una Celebración que Te Dejará Sin Aliento</h4>
+        <a href="#info" class="btn">Descubre más</a>
+      </div>
+    </header>
+
+    <section id="videos" class="section text-center">
+      <div class="container">
+        <h2>Halloween en Videos</h2>
+        <h4>Un recorrido visual por la noche más aterradora del año</h4>
+
+        <div class="row">
+          <div class="col-md-6">
+            <div class="ratio ratio-16x9 mb-4">
+              <iframe
+                src="https://www.youtube.com/embed/-jpyVIozAeY"
+                title="Video de Halloween 1"
+                allowfullscreen
+              ></iframe>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="ratio ratio-16x9">
+              <iframe
+                src="https://www.youtube.com/embed/EPbEVSO7p7A"
+                title="Video de Halloween 2"
+                allowfullscreen
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sección Información -->
+    <section id="info" class="section">
+      <div class="container text-center">
+        <h2>Información Importante</h2>
+        <h4>Prepárate para una noche de terror y diversión</h4>
+        <div class="row text-center">
+          <div class="col-md-4 mb-4">
+            <div class="info-item p-4 rounded">
+              <h3>¿Cuándo?</h3>
+              <p>Martes 31 de octubre, 8:00 PM</p>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="info-item p-4 rounded">
+              <h3>¿Dónde?</h3>
+              <p>Centro de Eventos Pedregal</p>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="info-item p-4 rounded">
+              <h3>¿Costo?</h3>
+              <p>Entrada gratuita, ¡Disfraces obligatorios!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Banner -->
+    <section
+      class="section banner d-flex align-items-center justify-content-center text-center text-light"
+    >
+      <div class="banner-content"></div>
+    </section>
+
+    <section class="section section-secondary">
+      <h2 class="text-center">Mapa de ubicación</h2>
+      <h4 class="text-center">Encuentra nuestra ubicación fácilmente.</h4>
+      <div>
+        <!-- MAPA GOOGLE FULLSCREEN -->
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15717.982719314241!2d-84.1773171!3d9.9758508!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8fa0fbd187f1968b%3A0xc10e1500ffd18243!2sCentro%20de%20Eventos%20Pedregal!5e0!3m2!1ses!2scr!4v1729905002254!5m2!1ses!2scr"
+          width="100%"
+          height="800"
+          style="border: 0"
+          allowfullscreen
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        >
+        </iframe>
+      </div>
+    </section>
+
+    <!-- Sección de Fotos en Carrusel para Halloween -->
+    <section id="galeria-halloween" class="section text-center">
+      <div class="container">
+        <h2>Halloween en Fotos</h2>
+        <h4>Revive los mejores momentos escalofriantes</h4>
+
+        <!-- Carrusel de Bootstrap -->
+        <div
+          id="carruselHalloween"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <!-- Indicadores del carrusel -->
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carruselHalloween"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carruselHalloween"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carruselHalloween"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+
+          <!-- Imágenes del carrusel -->
+          <div class="carousel-inner">
+            <!-- Imagen 1 -->
+            <div class="carousel-item active">
+              <img
+                src="img/img2.jpg"
+                class="d-block w-100 rounded"
+                alt="Foto Halloween 1"
+              />
+            </div>
+            <!-- Imagen 2 -->
+            <div class="carousel-item">
+              <img
+                src="img/img3.jpg"
+                class="d-block w-100 rounded"
+                alt="Foto Halloween 2"
+              />
+            </div>
+            <!-- Imagen 3 -->
+            <div class="carousel-item">
+              <img
+                src="img/img4.jpg"
+                class="d-block w-100 rounded"
+                alt="Foto Halloween 3"
+              />
+            </div>
+          </div>
+
+          <!-- Controles de navegación -->
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carruselHalloween"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Anterior</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carruselHalloween"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Siguiente</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Formulario de Suscripción -->
+    <section id="suscripcion" class="section text-center">
+      <div class="container">
+        <h2>¡Suscríbete para recibir noticias del Evento!</h2>
+        <form class="form-suscripcion mx-auto" style="max-width: 500px">
+          <div>
+            <input
+              type="email"
+              class="form-control"
+              id="email"
+              placeholder="Ingresa tu correo electrónico"
+              required
+            />
+          </div>
+          <button type="submit" class="btn mb-5">Suscribirme</button>
+        </form>
+      </div>
+    </section>
+
+    <footer class="footer text-center">
+      <!-- Botón de Desplazamiento al Inicio y al Final -->
+      <p class="px-5 mt-5">© 2024 Fiesta de Halloween | Todos los derechos reservados.</p>
+    </footer>
+
+    <!-- Botón de WhatsApp -->
+
+    <a onclick="scrollToTop()" class="scroll-btn top-btn">
+      <img src="img/flecha.png" class="scroll-up-arrow" alt="scroll up arrow" />
+    </a>
+
+    <a onclick="scrollToBottom()" class="scroll-btn bottom-btn">
+      <img src="img/flecha.png" class="scroll-up-arrow" alt="scroll up arrow" />
+    </a>
+
+    <a href="https://wa.me/1234567890" target="_blank" class="whatsapp-btn">
+      <img
+        src="https://img.icons8.com/color/48/000000/whatsapp.png"
+        alt="WhatsApp"
+      />
+    </a>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/landing.js"></script>
+  </body>
+</html>

@@ -1,0 +1,7 @@
+<h1>🎃¡Únete a nuestra Fiesta de Halloween! 🎃</h1>
+<p>Ven disfrazado y prepárate para una noche llena de diversión y sorpresas.
+¡Descubre más en nuestra página! 👻 </p>
+<p>
+<a href="https://usuario1.vs2407.com/tarea3/" target="blank"> 
+<img src="https://usuario1.vs2407.com/tarea3/img/logo.png" alt="Eventos"/> </a>
+</p>
