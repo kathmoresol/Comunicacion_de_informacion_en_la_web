@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Tienda Joyería" />
+    <meta name="author" content="Katherine Moreira" />
+    <link rel="icon" href="imgs/diamond.png" type="image/x-icon" />
+    <title>Ce jewelry studio</title>
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+    />
+
+    <!-- Estilos personalizados (opcional) -->
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg py-3">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="imgs/diamond.png" width="40px" height="40px" style="margin-right: 6px;">
+          Ce jewelry studio
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="index.html"
+                >Inicio</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="nosotros.html"
+                >Nosotros</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="coleccion.html">Colección</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Mâs
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li>
+                  <a class="dropdown-item" href="testimonios.html"
+                    >Testimonios y Estadísticas</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="contacto.html">Contacto</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="preguntas.html"
+                    >Preguntas Frecuentes</a
+                  >
+                </li>
+                <li><a class="dropdown-item" href="blog.html">Blog</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!--inicio seccion galeria-->
+    <section class="container-fluid pt-140">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center">
+            <h2 class="display-2 pt-5 text-danger titulo mb-5">
+              Catálogo Dinámico
+            </h2>
+          </div>
+
+          <div class="col-12">
+            <select
+              name="menuOpciones"
+              id="menuOpciones"
+              class="form-select form-select-lg mb-5"
+            >
+              <option value="" class="opcion0">
+                Seleccionar una categoría
+              </option>
+              <option value="joyeria" class="opcion5">Joyería</option>
+              <option value="anillos" class="opcion6">Novedades</option>
+            </select>
+          </div>
+        </div>
+
+        <!-- JOYERÍA -->
+        <div class="galeriaJoyeria galeriaFotos fondo-categories mb-5">
+          <div class="tz-gallery">
+            <div class="row text-center">
+              <div class="col-sm-12 col-md-6 col-lg-4">
+                <a class="" href="imagenes/collaroro.jpg">
+                  <img src="imagenes/collaroro.jpg" class="img-fluid" />
+                </a>
+                <div class="">
+                  <h3 class="pt-2 text-dark">Collar de Oro</h3>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-4">
+                <a class="" href="imagenes/pulceraplata.jpg">
+                  <img src="imagenes/pulceraplata.jpg" class="img-fluid" />
+                </a>
+                <div class="">
+                  <h3 class="pt-2 text-dark">Pulsera de Plata</h3>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-4">
+                <a class="" href="imagenes/anillodia2.jpg">
+                  <img src="imagenes/anillodia2.jpg" class="img-fluid" />
+                </a>
+                <div class="">
+                  <h3 class="pt-2 text-dark">Anillo de Diamantes</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Anillos -->
+        <div class="galeriaNovedades galeriaFotos fondo-categories mb-5">
+          <div class="tz-gallery">
+            <div class="row text-center">
+              <div class="col-sm-12 col-md-6 col-lg-4">
+                <a class="" href="imgs/arete7-min.jpg">
+                  <img src="imgs/arete7-min.jpg" class="img-fluid" />
+                </a>
+                <div class="">
+                  <h3 class="pt-2 text-dark">Arete de Oro</h3>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-4">
+                <a class="" href="imgs/arete1-min.jpg">
+                  <img src="imgs/arete1-min.jpg" class="img-fluid" />
+                </a>
+                <div class="">
+                  <h3 class="pt-2 text-dark">Arete de Plata</h3>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-4">
+                <a class="" href="imgs/arete2-min.jpg">
+                  <img src="imgs/arete2-min.jpg" class="img-fluid" />
+                </a>
+                <div class="">
+                  <h3 class="pt-2 text-dark">Arete Esmeralda</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center py-3 section">
+      <p>&copy;© 2024 Ce jewelry studio. Todos los derechos reservados.</p>
+    </footer>
+
+    <!-- Footer -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="js/categorias.js"></script>
+  </body>
+</html>

@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+body {
+  background-color: #dddde2;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Lato", sans-serif;
+  color: #528c83;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+p {
+  font-family: "Lato", sans-serif;
+  color: #975536;
+  font-size: 20px;
+}
+
+a {
+  color: #528c83;
+}
+
+.btn {
+  padding: 15px 25px;
+  background-color: #528c83;
+  color: #fff;
+  font-family: "Lato", sans-serif;
+  border: #528c83;
+}
+
+.btn:hover {
+  color: #fff;
+  background-color: #a2d4df;
+}
+
+/* Card Styles */
+.card {
+  padding: 0;
+  margin: 0 10px 20px;
+}
+
+.card-title {
+  font-size: 34px;
+  color: #528c83;
+}
+
+/*********************/
+/* Navbar */
+/********************/
+.navbar {
+  position: fixed;
+  top: 0;
+  z-index: 5;
+  background-color: #dddde2;
+  width: 100vw;
+  font-size: 22px;
+}
+
+.navbar-brand {
+  font-family: "Lato", sans-serif;
+  color: #528c83;
+  font-size: 28px;
+}
+
+.dropdown-item {
+  font-size: 22px;
+}
+
+i {
+  font-size: 22px;
+}
+
+.nav-link,
+.dropdown-item {
+  font-family: "Lato", sans-serif;
+  color: #975536;
+}
+
+.navbar-nav .nav-link.active {
+  font-family: "Lato", sans-serif;
+  color: #a2d4df;
+}
+
+.btn-outline-success {
+  background-color: #528c83;
+  color: #fff;
+  transition: all 0.3s;
+}
+
+.dropdown-item {
+  transition: all 0.3s;
+}
+
+.btn-outline-success:hover,
+.dropdown-item.active, 
+.dropdown-item:active,
+.dropdown-item:hover {
+  border: 0;
+  background-color: #528c83;
+  color: #fff;
+}
+
+.accordion-button {
+  color: #528c83;
+}
+
+/*********************/
+/* Custome Sections */
+/********************/
+
+/* Section generals */
+.section {
+  margin-top: 60px;
+}
+
+.section-top {
+  margin-top: 120px;
+}
+
+@media (min-width: 768px) {
+  .section {
+    margin-top: 120px;
+  }
+}
+
+/* Banner */
+.banner {
+  height: 500px;
+  background-image: url('imgs/bannermujer-min.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.banner .content {
+  height: 100%;
+}
+
+.banner h1,
+.banner p {
+  color: #fff;
+}
+
+/* Form */
+.form {
+  max-width: 600px;
+}
+
+/*********************/
+/* Nosotros */
+/********************/
+.us .card i {
+  margin: 0 0 15px 0;
+  color: #528c83;
+}
+
+.us-svg {
+  width: 100%;
+  text-align: center;
+}
+
+.us-svg img {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  transition: transform 0.3s;
+  margin: 20px auto 0;
+}
+
+
+/*********************/
+/* FAQ */
+/********************/
+
+.accordion-button:not(.collapsed) {
+  background-color: #528c83;
+  color: #fff;
+}

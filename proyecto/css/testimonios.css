@@ -1,0 +1,39 @@
+.testimonio {
+  padding: 150px 0 0;
+}
+
+/* Testimonios */
+.owl-carousel .item {
+  text-align: center;
+  padding: 15px;
+}
+
+.owl-carousel .item img {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  margin: 0 auto 30px;
+}
+
+.owl-carousel .item h3 {
+  margin-top: 10px;
+  font-size: 1.2rem;
+}
+
+.owl-carousel .item p {
+  font-size: 1rem;
+}
+
+/* Contador */
+.counter-wrap {
+  font-size: 1.5rem;
+}
+
+.number {
+  display: block;
+  font-size: 2rem;
+  color: #975536;
+  font-family: "Lato", sans-serif;
+  font-weight: normal;
+}
